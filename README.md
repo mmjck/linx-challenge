@@ -48,8 +48,9 @@ Tem como objetivo retornar duas listas de produtos:
 
 
 <h3> Ferramentas utilizadas </h3>
+
 - NodeJs
- - Axios
+  - Axios
 
 
 Resposta da api:
