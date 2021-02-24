@@ -72,10 +72,8 @@ Consome os dados fornecidos pela segunda api <b> API DE RECOMENDAÇÕES </b>.
 
 <h3> Ferramenta utilizadas </h3>
 - HTML </br>
-
 - CSS </br>
-
-- JavaScript </br>
+- JavaScript
 
 
 Duas listas com produtos de duas categorias:
