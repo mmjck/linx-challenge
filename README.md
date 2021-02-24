@@ -96,9 +96,9 @@ Etapa 3:
   - Acesse fontend e abra no navegador o arquivo index.html
 
 
-<h2> Dificuldades </h2>
-- No começo optei por utlizar como SGBD o mysql, porém não sei quais seriam as relações e quantas seriam, o que poderia ser custoso uma possível consulta no bando de dados
-- Tive difilculdade no encadeamento das requisições, pois a api de catálogo fornecia apenas um produto por requisição
-- Não entendi o motivo que os produtos que pertenciam a lista de podutos que mais abaixaram o preço tinham o novo preço e o antigo preço iguais. Então optei por não mostrar no front end essa tag de promoção.
+Dificuldades 
+ - No começo optei por utlizar como SGBD o mysql, porém não sei quais seriam as relações e quantas seriam, o que poderia ser custoso uma possível consulta no bando de dados
+ - Tive difilculdade no encadeamento das requisições, pois a api de catálogo fornecia apenas um produto por requisição
+ - Não entendi o motivo que os produtos que pertenciam a lista de podutos que mais abaixaram o preço tinham o novo preço e o antigo preço iguais. Então optei por não mostrar no front end essa tag de promoção.
 
 
