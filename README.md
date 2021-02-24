@@ -84,9 +84,11 @@ Duas listas com produtos de duas categorias:
 
 
 <h2> Funcionamento </h2>
+
 Etapa 1:
+
 - A api de catálogo deve está rodando
- - Acesse o diretório api_catalogo digite no terminal <b> npm start </b>
+  - Acesse o diretório api_catalogo digite no terminal <b> npm start </b>
 
 Etapa 2:
 - A api de recomendações deve está rodando </br>
