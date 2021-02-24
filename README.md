@@ -1,6 +1,5 @@
 <h3 align="center"> Desafio Linx </h3>
 
-
 <h3> Descrição </h3>
 Criação de duas api e uma aplicação front end
 
@@ -13,11 +12,11 @@ Criação de duas api e uma aplicação front end
 <h2> API - CATÁLOGO </h2>
 
 <h3> Descrição </h3>
-Tem como objetivo retornar um produto pelo seu <b> id </b>
+Recebe um <b> id </b> e retorna um produto, caso ele exista.
 
 <h3> Ferramentas utilizadas </h3>
-- MongoDB
 
+- MongoDB
 - NodeJs
   - Express
   - Mongoose
@@ -25,6 +24,7 @@ Tem como objetivo retornar um produto pelo seu <b> id </b>
   - Body-parser
 
 Resposta da api:
+
 - Sucesso
   - Produto não encontrado
   - Id não informado
@@ -93,11 +93,11 @@ Etapa 2:
 
 Etapa 3:
 - Executar aplicação front-end </br>
-  - Acesse fontend e abra no navegador o arquivo index.html
+  - Acesse o diretório fontend/ e abra no seu navegador navegador o arquivo index.html
 
 
 Dificuldades 
- - No começo optei por utlizar como SGBD o mysql, porém não sei quais seriam as relações e quantas seriam, o que poderia ser custoso uma possível consulta no bando de dados
+ - No começo optei por utlizar como SGBD o mysql, porém não sei quais seriam as relações entre as tabelas, se estariam corretas e quantas seriam, o que poderia ser custoso uma possível consulta no bando de dados
  - Tive difilculdade no encadeamento das requisições, pois a api de catálogo fornecia apenas um produto por requisição
  - Não entendi o motivo que os produtos que pertenciam a lista de podutos que mais abaixaram o preço tinham o novo preço e o antigo preço iguais. Então optei por não mostrar no front end essa tag de promoção.
 
