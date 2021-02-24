@@ -1,0 +1,139 @@
+.container {
+  margin: 10px 50px;
+}
+
+.rowOne {
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  overflow-x: hidden;
+  height: 500px;
+  margin-top: 10px 0px;
+}
+.rowOne::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.rowTwo::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.rowTwo {
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  overflow-x: hidden;
+  height: 500px;
+  margin-top: 10px 0px;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
+  margin: 15px;
+  padding: 10px;
+}
+
+.card img {
+  width: 200px;
+  height: 250px;
+}
+
+.topTag {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: purple;
+  border-radius: 4px;
+  width: 50px;
+}
+
+.topTag p {
+  color: white;
+  font-size: 14px;
+  margin-left: -2px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Definimos quantas linhas queremos */
+  display: -webkit-box;
+  overflow: hidden;
+  width: 250px; /* Definimos o tamanho máximo do nosso container*/
+}
+.title p {
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: left;
+  color: black;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price p:nth-of-type(1) {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: gray;
+}
+
+.price p:nth-of-type(2) {
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: purple;
+  font-weight: bold;
+}
+.rowOne span {
+  position: absolute;
+  top: 30%;
+  font-size: 60px;
+  font-weight: bold;
+  color: orange;
+  cursor: pointer;
+  left: 2%;
+  z-index: 2;
+}
+
+.rowOne span:nth-of-type(2) {
+  left: 95%;
+  text-align: right;
+}
+
+.rowTwo span {
+  position: absolute;
+  bottom: -60%;
+  font-size: 60px;
+  font-weight: bold;
+  color: orange;
+  cursor: pointer;
+  left: 2%;
+  z-index: 2;
+}
+
+.rowTwo span:nth-of-type(2) {
+  left: 95%;
+  text-align: right;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: purple;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-weight: lighter;
+}
