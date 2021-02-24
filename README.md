@@ -70,9 +70,10 @@ Resposta da api:
 <h3> Descrição </h3>
 Consome os dados fornecidos pela segunda api <b> API DE RECOMENDAÇÕES </b>.
 
-<h3> Ferramenta utilizadas </h3>
- - HTML </br>
- - CSS </br>
+
+Ferramenta utilizadas
+ - HTML
+ - CSS
  - JavaScript
 
 
