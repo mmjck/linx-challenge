@@ -71,9 +71,12 @@ Resposta da api:
 Consome os dados fornecidos pela segunda api <b> API DE RECOMENDAÇÕES </b>.
 
 <h3> Ferramenta utilizadas </h3>
-- HTML
-- CSS
-- JavaScript
+- HTML </br>
+
+- CSS </br>
+
+- JavaScript </br>
+
 
 Duas listas com produtos de duas categorias:
  - Produtos mais vendidos
@@ -92,6 +95,7 @@ Etapa 2:
 Etapa 3:
 - Executar aplicação front-end </br>
   - Acesse fontend e abra no navegador o arquivo index.html
+
 
 <h2> Dificuldades </h2>
 - No começo optei por utlizar como SGBD o mysql, porém não sei quais seriam as relações e quantas seriam, o que poderia ser custoso uma possível consulta no bando de dados
