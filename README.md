@@ -1,4 +1,4 @@
-<h3 align="center"> Desafion Linx </h3>
+<h3 align="center"> Desafio Linx </h3>
 
 
 <h3> Descrição </h3>
@@ -71,9 +71,9 @@ Resposta da api:
 Consome os dados fornecidos pela segunda api <b> API DE RECOMENDAÇÕES </b>.
 
 <h3> Ferramenta utilizadas </h3>
-- HTML </br>
-- CSS </br>
-- JavaScript
+ - HTML </br>
+ - CSS </br>
+ - JavaScript
 
 
 Duas listas com produtos de duas categorias:
